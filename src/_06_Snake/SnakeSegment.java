@@ -1,5 +1,6 @@
 package _06_Snake;
 
+import java.awt.Color;
 import java.awt.Graphics;
 
 public class SnakeSegment {
@@ -21,6 +22,6 @@ public class SnakeSegment {
 	
 	public void draw(Graphics g) {
 		g.setColor(Snake.SNAKE_COLOR);
-		g.drawRect(location.x * size, location.y * size, size, size);;
+		g.drawRect(location.x * size, location.y * size, size, size);
 	}
 }
